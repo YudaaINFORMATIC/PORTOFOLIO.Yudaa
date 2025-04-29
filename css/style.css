@@ -1,0 +1,119 @@
+:root {
+    --mainColor : #252734;
+    --secondaryColor : #333646;
+    --acsentColor :#63f03c;
+}
+
+body {
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'ubuntu', sans-serif;
+    
+}
+
+section h1{
+    color: #ffff;
+    font-size: 2.5rem;
+}
+
+/* Navbar */
+
+.nav-link.active {
+    color: var(--acsentColor) !important;
+    font-weight: 700;
+}
+
+/* Navbar End */
+
+/* Hero */
+
+.color-acsent{
+    color: var(--acsentColor);
+}
+
+#hero{
+    color: #ffff;
+    min-height: 100vh;
+    margin-top : 100px; 
+}
+
+#hero h1 {
+    font-size: 2rem;
+}
+#hero h2{
+    font-weight: 300;
+}
+#hero p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+/* CTA */
+.btn-custom1{
+    background-color: var(--acsentColor); 
+    text-align: center;
+    color: #fff;
+    min-width: 150px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    
+}
+
+.cv{
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.sosial-icon svg {
+margin-right: .7rem;
+margin-bottom: 10px;
+}
+
+.col-4{
+    align-items: center;
+}
+/* Hero End */
+
+/* About */
+
+hr {
+    width: 35%;
+    height: 5px;
+    color: var(--acsentColor);
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+#about{
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+    margin-top: -120px;
+}
+
+
+
+/* About End */
+
+
+/* Skill */
+
+#skill{
+    min-height: 600px;
+    width: 100%;
+    color: white;
+
+}
+
+#skill img{
+    width: 8%;
+    margin: 10px;
+}
+
+/* Skill End */
